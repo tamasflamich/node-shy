@@ -13,7 +13,8 @@ npm install mocha shy --save-dev
 Create the executable js file (`./bin/echojs.js`)
 
 ```
-console.log(process.argv.join(' '));
+#!/usr/bin/env node
+process.stdout.write(process.argv.slice(2).join(' ') + '\n');
 ``` 
 Configure `package.json` properly
 

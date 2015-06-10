@@ -1,0 +1,31 @@
+{
+  "name": "shy",
+  "version": "0.1.0",
+  "description": "enables to write functional tests for cli apps",
+  "main": "./lib/shy.js",
+  "bin": {
+    "shy": "shy.js"
+  },
+  "dependencies": {
+    "minimist": "^1.1.1",
+    "temp": "^0.8.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tamasflamich/node-shy.git"
+  },
+  "keywords": [
+    "mocha"
+  ],
+  "author": "Tamas Flamich",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tamasflamich/node-shy/issues"
+  },
+  "homepage": "https://github.com/tamasflamich/node-shy",
+  "files": [ "bin", "lib", "LICENSE" ]
+}

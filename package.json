@@ -1,6 +1,6 @@
 {
   "name": "shy",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "enables to write functional tests for cli apps",
   "main": "./lib/shy.js",
   "bin": {
